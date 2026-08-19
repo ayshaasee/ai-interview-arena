@@ -5,7 +5,7 @@ import axios from 'axios';
 // token to every request in ONE place (the interceptor below) instead
 // of remembering to add an Authorization header manually on every call.
 const api = axios.create({
-  baseURL: 'http://localhost:4000/api',
+  baseURL: 'https://ai-interview-arena-api.onrender.com/api',
 });
 
 // Runs before every single request this instance makes.
